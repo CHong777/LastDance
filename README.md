@@ -2,8 +2,7 @@
 1. Help > Edit Custom VM OPtions > encoding 설정 2개 추가
 - -Dfile.encoding=UTF-8
 - -Dconsole.encoding=UTF-8
-  <img src="/src/main/resources/img/vm1.png"  width="700" height="370">
-  <img src="/src/main/resources/img/vm2.png"  width="700" height="370">
+  <img src="/src/main/resources/img/vmOption.png">
 
 2. File -> Settings
 - (1). Gradle 검색
