@@ -1,1 +1,1 @@
-insert into member(user_id, name, password) values('aaa','bespoke','1234');
+insert into member(user_id, name, password) values('삼자','bespoke','1234');

@@ -18,3 +18,10 @@ logging:
   level:  # ? package ?? ?? ??? ??? ? ??.
     com.project.study : error
     com.project.study.controller : debug
+
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    encoding:
+      charset: UTF-8

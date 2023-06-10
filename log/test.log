@@ -3054,3 +3054,158 @@ java.lang.NullPointerException: null
 2023-06-10 01:09:02.179  INFO 24523 --- [Test worker] c.e.lastdance.LastDanceApplicationTests  : Started LastDanceApplicationTests in 5.332 seconds (JVM running for 6.948)
 2023-06-10 01:09:02.662  INFO 24523 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-06-10 01:09:02.669  INFO 24523 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-10 08:58:35.764  INFO 1942 --- [Test worker] c.e.lastdance.LastDanceApplicationTests  : Starting LastDanceApplicationTests using Java 11.0.11 on tong7ui-MacBookPro.local with PID 1942 (started by tong7 in /Users/tong7/IdeaProjects/test/LastDance)
+2023-06-10 08:58:35.767  INFO 1942 --- [Test worker] c.e.lastdance.LastDanceApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-06-10 08:58:40.713  INFO 1942 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-10 08:58:40.982  INFO 1942 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-10 08:58:41.471  INFO 1942 --- [Test worker] c.e.lastdance.LastDanceApplicationTests  : Started LastDanceApplicationTests in 6.328 seconds (JVM running for 8.3)
+2023-06-10 08:58:42.031  INFO 1942 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-10 08:58:42.040  INFO 1942 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-10 08:59:09.779  INFO 1985 --- [main] c.e.lastdance.LastDanceApplication       : Starting LastDanceApplication using Java 11.0.11 on tong7ui-MacBookPro.local with PID 1985 (/Users/tong7/IdeaProjects/test/LastDance/build/classes/java/main started by tong7 in /Users/tong7/IdeaProjects/test/LastDance)
+2023-06-10 08:59:09.785  INFO 1985 --- [main] c.e.lastdance.LastDanceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-06-10 08:59:11.289  INFO 1985 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-10 08:59:11.295  INFO 1985 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-10 08:59:11.295  INFO 1985 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-10 08:59:11.405  INFO 1985 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-10 08:59:11.405  INFO 1985 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1553 ms
+2023-06-10 08:59:12.182  INFO 1985 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-10 08:59:12.250  INFO 1985 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-10 08:59:12.376  INFO 1985 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-10 08:59:12.389  INFO 1985 --- [main] c.e.lastdance.LastDanceApplication       : Started LastDanceApplication in 3.128 seconds (JVM running for 3.758)
+2023-06-10 08:59:20.906  INFO 1985 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-10 08:59:20.907  INFO 1985 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-10 08:59:20.909  INFO 1985 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-10 08:59:21.039  INFO 1985 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"1","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 08:59:21.044  INFO 1985 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopCommonLog   : REQ: {"test":1}
+2023-06-10 08:59:21.078  INFO 1985 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopCommonLog   : RES: {"resultCode":"S0000","member":{"memberId":1,"userId":"aaa","name":"bespoke","password":"1234"}}
+2023-06-10 08:59:21.085  INFO 1985 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=40ms
+2023-06-10 08:59:30.202  INFO 1985 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-10 08:59:30.207  INFO 1985 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-10 08:59:48.667  INFO 2042 --- [main] c.e.lastdance.LastDanceApplication       : Starting LastDanceApplication using Java 11.0.11 on tong7ui-MacBookPro.local with PID 2042 (/Users/tong7/IdeaProjects/test/LastDance/build/classes/java/main started by tong7 in /Users/tong7/IdeaProjects/test/LastDance)
+2023-06-10 08:59:48.670  INFO 2042 --- [main] c.e.lastdance.LastDanceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-06-10 08:59:50.107  INFO 2042 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-10 08:59:50.113  INFO 2042 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-10 08:59:50.113  INFO 2042 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-10 08:59:50.185  INFO 2042 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-10 08:59:50.185  INFO 2042 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1431 ms
+2023-06-10 08:59:50.921  INFO 2042 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-10 08:59:51.014  INFO 2042 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-10 08:59:51.168  INFO 2042 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-10 08:59:51.181  INFO 2042 --- [main] c.e.lastdance.LastDanceApplication       : Started LastDanceApplication in 3.023 seconds (JVM running for 3.632)
+2023-06-10 08:59:55.045  INFO 2042 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-10 08:59:55.046  INFO 2042 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-10 08:59:55.047  INFO 2042 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-10 08:59:55.175  INFO 2042 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"1","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 08:59:55.180  INFO 2042 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopCommonLog   : REQ: {"test":1}
+2023-06-10 08:59:55.210  INFO 2042 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopCommonLog   : RES: {"resultCode":"S0000","member":{"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}}
+2023-06-10 08:59:55.217  INFO 2042 --- [http-nio-8080-exec-2] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=36ms
+2023-06-10 09:06:51.780  INFO 2042 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-10 09:06:51.787  INFO 2042 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-10 09:21:09.171  INFO 3627 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Starting MemberContTest using Java 11.0.11 on tong7ui-MacBookPro.local with PID 3627 (started by tong7 in /Users/tong7/IdeaProjects/test/LastDance)
+2023-06-10 09:21:09.175  INFO 3627 --- [Test worker] c.example.lastdance.cont.MemberContTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-10 09:21:11.862  INFO 3627 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-10 09:21:11.876  INFO 3627 --- [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-10 09:21:11.877  INFO 3627 --- [Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-10 09:21:12.020  INFO 3627 --- [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-10 09:21:12.021  INFO 3627 --- [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2809 ms
+2023-06-10 09:21:14.392  INFO 3627 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-10 09:21:14.609  INFO 3627 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-10 09:21:15.131  INFO 3627 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50341 (http) with context path ''
+2023-06-10 09:21:15.148  INFO 3627 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Started MemberContTest in 6.613 seconds (JVM running for 8.299)
+2023-06-10 09:21:15.854  INFO 3627 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-10 09:21:15.856  INFO 3627 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-10 09:21:15.863  INFO 3627 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-06-10 09:21:15.958  INFO 3627 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 09:21:15.965  INFO 3627 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : REQ: null
+2023-06-10 09:21:16.069  INFO 3627 --- [http-nio-auto-1-exec-1] com.example.lastdance.cont.MemberCont    : M : Member(memberId=1, userId=삼자, name=bespoke, password=1234)
+2023-06-10 09:21:16.080  INFO 3627 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : RES: {"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}
+2023-06-10 09:21:16.092  INFO 3627 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=117ms
+2023-06-10 09:21:16.132  INFO 3627 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test : {memberId=1, userId=삼자, name=bespoke, password=1234}
+2023-06-10 09:21:16.324  INFO 3627 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"1","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 09:21:16.326  INFO 3627 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : REQ: {"test":1}
+2023-06-10 09:21:16.329  INFO 3627 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : RES: {"resultCode":"S0000","member":{"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}}
+2023-06-10 09:21:16.330  INFO 3627 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=4ms
+2023-06-10 09:21:16.334  INFO 3627 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test: {resultCode=S0000, member={memberId=1, userId=삼자, name=bespoke, password=1234}}
+2023-06-10 09:21:16.399  INFO 3627 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-10 09:21:16.407  INFO 3627 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-10 09:31:48.661  INFO 4504 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Starting MemberContTest using Java 11.0.11 on tong7ui-MacBookPro.local with PID 4504 (started by tong7 in /Users/tong7/IdeaProjects/test/LastDance)
+2023-06-10 09:31:48.665  INFO 4504 --- [Test worker] c.example.lastdance.cont.MemberContTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-10 09:31:51.393  INFO 4504 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-10 09:31:51.406  INFO 4504 --- [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-10 09:31:51.407  INFO 4504 --- [Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-10 09:31:51.546  INFO 4504 --- [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-10 09:31:51.546  INFO 4504 --- [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2845 ms
+2023-06-10 09:31:53.912  INFO 4504 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-10 09:31:54.129  INFO 4504 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-10 09:31:54.712  INFO 4504 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50564 (http) with context path ''
+2023-06-10 09:31:54.728  INFO 4504 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Started MemberContTest in 6.787 seconds (JVM running for 8.461)
+2023-06-10 09:31:55.438  INFO 4504 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-10 09:31:55.441  INFO 4504 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-10 09:31:55.448  INFO 4504 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-06-10 09:31:55.544  INFO 4504 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 09:31:55.552  INFO 4504 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : REQ: null
+2023-06-10 09:31:55.662  INFO 4504 --- [http-nio-auto-1-exec-2] com.example.lastdance.cont.MemberCont    : M : Member(memberId=1, userId=삼자, name=bespoke, password=1234)
+2023-06-10 09:31:55.672  INFO 4504 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : RES: {"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}
+2023-06-10 09:31:55.684  INFO 4504 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=121ms
+2023-06-10 09:31:55.723  INFO 4504 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test : {memberId=1, userId=삼자, name=bespoke, password=1234}
+2023-06-10 09:31:55.919  INFO 4504 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"1","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 09:31:55.922  INFO 4504 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : REQ: {"test":1}
+2023-06-10 09:31:55.926  INFO 4504 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : RES: {"resultCode":"S0000","member":{"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}}
+2023-06-10 09:31:55.927  INFO 4504 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=5ms
+2023-06-10 09:31:55.931  INFO 4504 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test: {resultCode=S0000, member={memberId=1, userId=삼자, name=bespoke, password=1234}}
+2023-06-10 09:31:55.988  INFO 4504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-10 09:31:55.997  INFO 4504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-10 09:51:13.347  INFO 5766 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Starting MemberContTest using Java 11.0.11 on tong7ui-MacBookPro.local with PID 5766 (started by tong7 in /Users/tong7/IdeaProjects/test/LastDance)
+2023-06-10 09:51:13.352  INFO 5766 --- [Test worker] c.example.lastdance.cont.MemberContTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-10 09:51:16.006  INFO 5766 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-10 09:51:16.021  INFO 5766 --- [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-10 09:51:16.022  INFO 5766 --- [Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-10 09:51:16.168  INFO 5766 --- [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-10 09:51:16.168  INFO 5766 --- [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2778 ms
+2023-06-10 09:51:18.527  INFO 5766 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-10 09:51:18.732  INFO 5766 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-10 09:51:19.238  INFO 5766 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50782 (http) with context path ''
+2023-06-10 09:51:19.253  INFO 5766 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Started MemberContTest in 6.563 seconds (JVM running for 8.27)
+2023-06-10 09:51:19.923  INFO 5766 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-10 09:51:19.925  INFO 5766 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-10 09:51:19.931  INFO 5766 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-06-10 09:51:20.022  INFO 5766 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 09:51:20.027  INFO 5766 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : REQ: null
+2023-06-10 09:51:20.121  INFO 5766 --- [http-nio-auto-1-exec-1] com.example.lastdance.cont.MemberCont    : M : Member(memberId=1, userId=삼자, name=bespoke, password=1234)
+2023-06-10 09:51:20.131  INFO 5766 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : RES: {"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}
+2023-06-10 09:51:20.144  INFO 5766 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=106ms
+2023-06-10 09:51:20.181  INFO 5766 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test : {memberId=1, userId=삼자, name=bespoke, password=1234}
+2023-06-10 09:51:20.434  INFO 5766 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"1","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 09:51:20.440  INFO 5766 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : REQ: {"test":1}
+2023-06-10 09:51:20.447  INFO 5766 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : RES: {"resultCode":"S0000","member":{"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}}
+2023-06-10 09:51:20.448  INFO 5766 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=8ms
+2023-06-10 09:51:20.459  INFO 5766 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test: {resultCode=S0000, member={memberId=1, userId=삼자, name=bespoke, password=1234}}
+2023-06-10 09:51:20.550  INFO 5766 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-10 09:51:20.558  INFO 5766 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-10 10:01:55.770  INFO 6607 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Starting MemberContTest using Java 11.0.11 on tong7ui-MacBookPro.local with PID 6607 (started by tong7 in /Users/tong7/IdeaProjects/test/LastDance)
+2023-06-10 10:01:55.774  INFO 6607 --- [Test worker] c.example.lastdance.cont.MemberContTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-10 10:01:58.427  INFO 6607 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-10 10:01:58.441  INFO 6607 --- [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-10 10:01:58.442  INFO 6607 --- [Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-10 10:01:58.616  INFO 6607 --- [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-10 10:01:58.617  INFO 6607 --- [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2807 ms
+2023-06-10 10:02:01.011  INFO 6607 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-10 10:02:01.216  INFO 6607 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-10 10:02:01.746  INFO 6607 --- [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50927 (http) with context path ''
+2023-06-10 10:02:01.766  INFO 6607 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Started MemberContTest in 6.676 seconds (JVM running for 8.356)
+2023-06-10 10:02:02.453  INFO 6607 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-10 10:02:02.456  INFO 6607 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-10 10:02:02.461  INFO 6607 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-06-10 10:02:02.553  INFO 6607 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 10:02:02.562  INFO 6607 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : REQ: null
+2023-06-10 10:02:02.652  INFO 6607 --- [http-nio-auto-1-exec-1] com.example.lastdance.cont.MemberCont    : M : Member(memberId=1, userId=삼자, name=bespoke, password=1234)
+2023-06-10 10:02:02.660  INFO 6607 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : RES: {"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}
+2023-06-10 10:02:02.672  INFO 6607 --- [http-nio-auto-1-exec-1] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=99ms
+2023-06-10 10:02:02.712  INFO 6607 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test : {memberId=1, userId=삼자, name=bespoke, password=1234}
+2023-06-10 10:02:02.904  INFO 6607 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopHeaderSet   : HEAD: {"authKey":"1","osType":"","osVer":"","appVer":"","appVerCode":"","device":"","mdn":""}
+2023-06-10 10:02:02.907  INFO 6607 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : REQ: {"test":1}
+2023-06-10 10:02:02.911  INFO 6607 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : RES: {"resultCode":"S0000","member":{"memberId":1,"userId":"삼자","name":"bespoke","password":"1234"}}
+2023-06-10 10:02:02.911  INFO 6607 --- [http-nio-auto-1-exec-2] com.example.lastdance.aop.AopCommonLog   : -- END ResTime=4ms
+2023-06-10 10:02:02.916  INFO 6607 --- [Test worker] c.example.lastdance.cont.MemberContTest  : Test: {resultCode=S0000, member={memberId=1, userId=삼자, name=bespoke, password=1234}}
+2023-06-10 10:02:02.980  INFO 6607 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-10 10:02:02.988  INFO 6607 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
