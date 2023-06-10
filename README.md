@@ -8,8 +8,8 @@
 - (1). Gradle 검색
 - Build and run using : IntelliJ IDEA
 - Run tests using : IntelliJ IDEA 변경
-  <img src="/src/main/resources/img/gradleSettings1.png"  width="700" height="370">
+  <img src="/src/main/resources/img/gradleSettings1.png">
 - (2). encoding 검색 후, Editor -> File Encodings 클릭
 - Global Encoding : UTF-8
 - Project Encoding : UTF-8
-  <img src="/src/main/resources/img/fileencoding.png"  width="700" height="370">
+  <img src="/src/main/resources/img/fileencoding.png">
